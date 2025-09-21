@@ -23,10 +23,10 @@
     <div class="card login-card shadow">
         <div class="card-body">
             <h3 class="card-title text-center mb-4">Acessar Sistema</h3>
-            <form action="auth.php" method="POST">
+            <form action="autentica.php" method="POST">
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
+                    <input type="email" class="form-control" id="login" name="login" required>
                 </div>
                 <div class="mb-3">
                     <label for="senha" class="form-label">Senha</label>
